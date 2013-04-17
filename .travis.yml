@@ -1,4 +1,5 @@
 language: clojure
+lein: lein2
 env:
     global:
         - secure: "LIdxe11Fj1VbJxj5AH7qDUAWI+zTZhY7PMuuCsz5aC3aZMpDXNCAPG/J7uZC\n48a5KU0YSXumfIwBHXqJzE+mqaWenT3sweKBqxSoBYgKsvv10Oe9qYclpdsZ\nI1fvoKKTaYqBb8zBpvqhzBuLuUG4RKlGr4YXt5XuEmfUnQVW40I="

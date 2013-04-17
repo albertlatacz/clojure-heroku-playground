@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="924194d9-3414-4b47-a6d1-cf7398fb9d22" name="Default" comment="enabled tests">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
+    <list default="true" id="924194d9-3414-4b47-a6d1-cf7398fb9d22" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="clojure-heroku-playground.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366200404760" ignored="false" />
+    <file path="/Dummy.txt" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366200602174" ignored="false" />
     <file path="/.travis.yml" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366186678058" ignored="false" />
     <file path="/main.clj" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366191708960" ignored="false" />
     <file path="/project.clj" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366200400986" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalProfileService/src/main/scala/uk/co/tef/ps/service/RegistrationService.scala" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366200608838" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/regionalServiceAdaptors/src/main/scala/uk/co/o2/rsa/adaptor/AccessAdaptor.scala" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366200608838" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,19 +82,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+            <state line="7" column="21" selection-start="268" selection-end="268" vertical-scroll-proportion="0.28">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="project.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="505" selection-end="505" vertical-scroll-proportion="0.5025773">
+            <state line="13" column="33" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,10 +146,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/clojure_heroku_playground/handler.clj" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/clojure_heroku_playground/main.clj" />
         <option value="$PROJECT_DIR$/test/clojure_heroku_playground/test/handler.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -494,7 +496,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="enabled tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="min lein bumped to 2.0.0" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -512,6 +514,7 @@
     <MESSAGE value="added push to heroku" />
     <MESSAGE value="start on correct port and added main" />
     <MESSAGE value="enabled tests" />
+    <MESSAGE value="min lein bumped to 2.0.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -556,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ring/ring-jetty-adapter/1.1.6/ring-jetty-adapter-1.1.6.jar!/ring/adapter/jetty.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="14" selection-start="2373" selection-end="2373" vertical-scroll-proportion="0.0">
@@ -584,6 +580,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_heroku_playground/test/handler.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="14" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
@@ -591,9 +594,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="505" selection-end="505" vertical-scroll-proportion="0.5025773">
+        <state line="7" column="21" selection-start="268" selection-end="268" vertical-scroll-proportion="0.28">
           <folding />
         </state>
       </provider>
