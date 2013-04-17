@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="924194d9-3414-4b47-a6d1-cf7398fb9d22" name="Default" comment="start on correct port and added main">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_core_1_1_7.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clojure_heroku_playground.iml" afterPath="$PROJECT_DIR$/clojure_heroku_playground.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/clojure_heroku_playground/test/handler.clj" afterPath="$PROJECT_DIR$/test/clojure_heroku_playground/test/handler.clj" />
+    <list default="true" id="924194d9-3414-4b47-a6d1-cf7398fb9d22" name="Default" comment="enabled tests">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="clojure-heroku-playground.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366199936877" ignored="false" />
+    <file path="/Dummy.txt" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366200404760" ignored="false" />
     <file path="/.travis.yml" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366186678058" ignored="false" />
     <file path="/main.clj" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366191708960" ignored="false" />
-    <file path="/project.clj" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366192086739" ignored="false" />
+    <file path="/project.clj" changelist="924194d9-3414-4b47-a6d1-cf7398fb9d22" time="1366200400986" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +71,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="handler.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="handler.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/clojure_heroku_playground/test/handler.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="14" selection-start="406" selection-end="406" vertical-scroll-proportion="0.5025773">
+            <state line="13" column="14" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.clj" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="project.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+            <state line="13" column="33" selection-start="505" selection-end="505" vertical-scroll-proportion="0.5025773">
               <folding />
             </state>
           </provider>
@@ -147,9 +145,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/clojure_heroku_playground/handler.clj" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/clojure_heroku_playground/main.clj" />
         <option value="$PROJECT_DIR$/test/clojure_heroku_playground/test/handler.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
   </component>
@@ -439,6 +437,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -448,7 +447,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -496,7 +494,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="start on correct port and added main" />
+    <option name="LAST_COMMIT_MESSAGE" value="enabled tests" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -513,6 +511,7 @@
     <MESSAGE value="added travis config" />
     <MESSAGE value="added push to heroku" />
     <MESSAGE value="start on correct port and added main" />
+    <MESSAGE value="enabled tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -571,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_heroku_playground/handler.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="5" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
@@ -594,7 +586,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_heroku_playground/test/handler.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="406" selection-end="406" vertical-scroll-proportion="0.5025773">
+        <state line="13" column="14" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="505" selection-end="505" vertical-scroll-proportion="0.5025773">
           <folding />
         </state>
       </provider>

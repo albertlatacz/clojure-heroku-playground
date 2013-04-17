@@ -2,6 +2,7 @@
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :aot  'clojure-heroku-playground.main
+  :min-lein-version "2.0.0"
   :main clojure-heroku-playground.main
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [ring "1.1.6"]
