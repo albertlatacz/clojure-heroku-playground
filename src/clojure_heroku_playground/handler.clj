@@ -1,10 +1,11 @@
 (ns clojure-heroku-playground.handler
-  (:use compojure.core)
+  (:use compojure.core
+        stencil.core)
   (:require [compojure.handler :as handler]
             [compojure.route :as route]))
 
 (defroutes app-routes
-  (GET "/" [] "Hello World")
+  (GET "/" [] (render-file "example" {:what "World"}))
   (route/resources "/")
   (route/not-found "Not Found"))
 
